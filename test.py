@@ -91,13 +91,7 @@ from idlelib.debugger_r import restart_subprocess_debugger
 #
 # print(sum)
 
-num1 = 19
-if num1 > 20:
-     print("1")
-    elif num1 = 20:
-        print("2")
-else:
-    print("3")
+
 
 
 
