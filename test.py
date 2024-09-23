@@ -27,12 +27,35 @@ import re
 #print ("no world in sentence: " + Sentence.rstrip("world"))
 
 
-def add(x,y = 5):
-    s = x+y
-    print(s)
+# def add(x,y = 5):
+#     s = x+y
+#     print(s)
+#
+#
+# add(3,3)
 
 
-add(3,3)
+
+
+class Employee:
+    status = "current employee"
+
+    def __init__(self,name,age,gender):
+        self.name=name
+        self.age=age
+        self.gender=gender
+
+    def info(self):
+        print("Name:",self.name,"Age:", self.age,"Gender:", self.gender)
+
+class PartTimeEmployee(Employee):
+    def GetHours(self,hours):
+        print("{} work for {} hours a day".format(self.name,hours))
+
+
+yzh = PartTimeEmployee("yzh",23,"male")
+yzh.info()
+yzh.GetHours(8)
 
 
 
