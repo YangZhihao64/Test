@@ -1,4 +1,5 @@
 import re
+from idlelib.debugger_r import restart_subprocess_debugger
 
 # print ("hello world")
 # print ("First Change")
@@ -37,30 +38,66 @@ import re
 
 
 
-class Employee:
-    status = "current employee"
+# class Employee:
+#     status = "current employee"
+#
+#     def __init__(self,name,age,gender):
+#         self.name=name
+#         self.age=age
+#         self.gender=gender
+#
+#     def info(self):
+#         print("Name:",self.name,"Age:", self.age,"Gender:", self.gender)
+#
+# class PartTimeEmployee(Employee):
+#     def get_hours(self,hours):
+#         print("{} work for {} hours a day".format(self.name,hours))
+# class FullTimeEmployee(Employee):
+#     def get_hours(self,hours):
+#         print("{} work for {} hours a day".format(self.name,hours))
+#
+#
+# yzh = PartTimeEmployee("yzh",23,"male")
+# yzh.info()
+# yzh.get_hours(8)
+# print(isinstance(yzh,Employee))
+#
+# yzh2 = FullTimeEmployee("yzh2",59,"male")
+# yzh2.get_hours(40)
+# print(isinstance(yzh2,PartTimeEmployee))
+#
+# yzh3 = Employee("yzh3",3,"female")
+# print(isinstance(yzh3,Employee))
+#
+# print(isinstance(yzh3,yzh))
 
-    def __init__(self,name,age,gender):
-        self.name=name
-        self.age=age
-        self.gender=gender
 
-    def info(self):
-        print("Name:",self.name,"Age:", self.age,"Gender:", self.gender)
-
-class PartTimeEmployee(Employee):
-    def GetHours(self,hours):
-        print("{} work for {} hours a day".format(self.name,hours))
-
-
-yzh = PartTimeEmployee("yzh",23,"male")
-yzh.info()
-yzh.GetHours(8)
+# num1 = float(input("first:"))
+# if num1 >= 20:
+#     if num1 <= 50:
+#         result = 1
+#     else:
+#         result = 2
+# else:
+#     result = 3
+# print(result)
 
 
 
 
+# str2 = "67890"
+#
+# sum = str1+","+str2
+#
+# print(sum)
 
+num1 = 19
+if num1 > 20:
+     print("1")
+    elif num1 = 20:
+        print("2")
+else:
+    print("3")
 
 
 
